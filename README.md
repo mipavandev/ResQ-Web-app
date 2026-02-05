@@ -48,65 +48,37 @@ It helps victims take action instantly by notifying:
 
 ---
 
-## 📱 App Preview (Animated Demo)
+## 🖼 App Screenshots
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTY3bDg5c3E0YW9sZHFvZTFjM3U1cGF6N2M2MW8yN3ZlNm0za3ZlNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aD2saalBwwftBIY/giphy.gif" width="500"/>
+| Home Screen | SOS Alert | Live Tracking |
+|------------|----------|--------------|
+| <img src="assets/screens/home.png" width="200"/> | <img src="assets/screens/sos.png" width="200"/> | <img src="assets/screens/location.png" width="200"/> |
 
 </div>
 
 ---
 
-# 🧭 ResQ Emergency Flow  
+## 🛠 Tech Stack
 
-## ✅ Step-by-Step Pipeline  
+| Layer | Technologies |
+|------|-------------|
+| **Frontend** | React Native + Kotlin |
+| **Backend** | (Node.js + Express.js) + Kotlin |
+| **Database** | PostgreSQL / MongoDB |
+| **Real-Time Alerts** | Firebase + Socket.io |
+| **AI/ML Processing** | Python / TensorFlow / PyTorch |
+| **NLP Support** | SpaCy / NLTK / Hugging Face |
 
-```diff
-+ 1. User feels unsafe
-+ 2. SOS button is triggered instantly
-+ 3. Emergency mode activates
-+ 4. Trusted contacts receive alert
-+ 5. Nearby helpers are notified
-+ 6. Live GPS tracking begins
-+ 7. Evidence recording starts automatically
-+ 8. Police integration planned for faster action
-+ 9. User confirms safety → incident resolved
+---
 
-flowchart TD
+## 📌 App Workflow
 
-A[🚨 User Feels Unsafe] --> B[🆘 Tap SOS Button]
-
-B --> C[⚡ Emergency Mode Activated]
-
-C --> D[📍 Live Location Shared]
-C --> E[🔔 Alerts Sent Instantly]
-C --> F[🎥 Evidence Recording Starts]
-
-E --> G[👨‍👩‍👧 Trusted Contacts Notified]
-E --> H[🤝 Nearby Helpers Alerted]
-E --> I[👮 Police Integration<br>(Future Scope)]
-
-D --> J[📡 Continuous GPS Tracking]
-
-H --> K[🚑 Community Support Arrives Fast]
-I --> L[🚓 Authorities Respond]
-
-J --> M[✅ User Confirms Safety]
-
-M --> N[🌸 Incident Resolved & Logged Securely]
-
-
-Frontend: React Native + Kotlin
-Backend: (Node.js + Express.js) + Kotlin
-Database: PostgreSQL / MongoDB
-Real-Time Alerts: Firebase + Socket.io
-AI/ML Support: TensorFlow / PyTorch
-NLP Layer: SpaCy / Hugging Face
-
-
-git clone https://github.com/yourusername/resq-app.git
-cd resq-app
-npm install
-npm start
-
+```mermaid
+graph TD;
+A[User in Danger] --> B[Press SOS Button]
+B --> C[Alert Emergency Contacts]
+B --> D[Notify Nearby People]
+B --> E[Share Live Location]
+E --> F[Police & Help Reach Faster]
