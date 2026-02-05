@@ -1,103 +1,74 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ff4b8b&height=180&section=header&text=ResQ%20Women%20Safety%20App&fontSize=40&fontColor=ffffff"/>
+
 # 🚨 ResQ – Women Safety & Emergency Response App  
 
-### 🌸 Real-Time Help • Instant Alerts • Safer Communities  
-
-<img src="https://readme-typing-svg.herokuapp.com?color=FF4B8B&size=22&center=true&vCenter=true&width=650&lines=Your+Safety+Matters.;One-Tap+SOS+Emergency+Support.;Nearby+Help+in+Seconds+%F0%9F%93%8D;Empowering+Women+Through+Technology+%F0%9F%92%AA" />
+<img src="https://readme-typing-svg.herokuapp.com?color=FF4B8B&size=24&center=true&vCenter=true&width=700&lines=Your+Safety+Matters.;One-Tap+SOS+Emergency+Support.;Nearby+Help+in+Seconds+%F0%9F%93%8D;Empowering+Women+Through+Technology+%F0%9F%92%AA"/>
 
 <br/>
 
-![Platform](https://img.shields.io/badge/Platform-Mobile%20App-blue)
-![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
-![Tech](https://img.shields.io/badge/Tech%20Stack-React%20Native%20%7C%20Kotlin-green)
-![License](https://img.shields.io/badge/License-MIT-pink)
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Mobile%20App-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Tech%20Stack-React%20Native%20%7C%20Kotlin-green?style=for-the-badge"/>
+</p>
 
 </div>
 
 ---
 
-## 🌟 Overview  
+## 🌸 About ResQ  
 
-**ResQ** is a **mobile-first women safety app** built to provide **instant emergency response** during unsafe situations.  
+**ResQ** is a **mobile-first women safety app** designed for **real-time emergency support**.  
+It helps victims take action instantly by notifying:
 
-It connects victims with:
-
-- ✅ Trusted emergency contacts  
-- ✅ Nearby verified helpers  
-- ✅ Live GPS tracking  
-- ✅ Evidence capture support  
-- ✅ Future police integration  
+✅ Trusted Contacts  
+✅ Nearby Helpers  
+✅ Future Police Integration  
 
 > **Because the fastest help is often nearby.**
 
 ---
 
-<hr/>
-
-## 🎯 Problem ResQ Solves  
-
-Women face critical challenges during emergencies:
-
-- 🚫 Late response from authorities  
-- 🚫 Lack of bystander intervention  
-- 🚫 No real-time monitoring  
-- 🚫 Fear of reporting incidents  
-
-ResQ bridges this gap using **technology + community-driven safety**.
-
----
-
-<hr/>
-
 ## 🚀 Key Features  
 
 <div align="center">
 
-| Feature | Description |
-|--------|-------------|
-| 🆘 SOS Panic Button | One tap activates emergency mode instantly |
-| 📍 Live Location Sharing | Continuous GPS tracking until safe |
-| 🔔 Instant Alerts | Notifies contacts + nearby helpers |
-| 🎥 Evidence Recording | Auto audio/video capture for proof |
+| 🛡 Feature | 💡 Description |
+|----------|--------------|
+| 🆘 SOS Panic Button | One tap activates emergency mode |
+| 📍 Live GPS Tracking | Continuous location sharing until safe |
+| 🔔 Instant Alerts | Sends alerts to contacts + nearby helpers |
+| 🎥 Evidence Capture | Auto audio/video recording for proof |
 | 🕵️ Anonymous Reporting | Safe reporting without fear |
-| 👮 Police Integration | Planned future collaboration |
+| 👮 Police Integration | Future government collaboration |
 
 </div>
 
 ---
 
-<hr/>
-
-## 🖼 App Screenshots  
+## 📱 App Preview (Animated Demo)
 
 <div align="center">
 
-<img src="assets/screens/home.png" width="220"/>
-<img src="assets/screens/sos.png" width="220"/>
-<img src="assets/screens/location.png" width="220"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTY3bDg5c3E0YW9sZHFvZTFjM3U1cGF6N2M2MW8yN3ZlNm0za3ZlNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aD2saalBwwftBIY/giphy.gif" width="500"/>
 
 </div>
 
 ---
 
-<hr/>
+# 🧭 ResQ Emergency Flow  
 
-# 🧭 ResQ Emergency Response Flow  
-
-This is the structured workflow ResQ follows during an incident:
-
----
-
-## ✅ Step-by-Step Emergency Pipeline  
+## ✅ Step-by-Step Pipeline  
 
 ```diff
-+ 1. User senses danger or feels unsafe
-+ 2. User taps the SOS panic button
-+ 3. Emergency mode is instantly activated
-+ 4. Alerts are sent to trusted contacts
-+ 5. Nearby helpers are notified for fastest response
-+ 6. Live GPS location sharing begins immediately
++ 1. User feels unsafe
++ 2. SOS button is triggered instantly
++ 3. Emergency mode activates
++ 4. Trusted contacts receive alert
++ 5. Nearby helpers are notified
++ 6. Live GPS tracking begins
 + 7. Evidence recording starts automatically
-+ 8. Continuous tracking remains active until safe
-+ 9. Incident is resolved, logged, and can be reported
++ 8. Police integration planned for faster action
++ 9. User confirms safety → incident resolved
