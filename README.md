@@ -72,3 +72,41 @@ It helps victims take action instantly by notifying:
 + 7. Evidence recording starts automatically
 + 8. Police integration planned for faster action
 + 9. User confirms safety → incident resolved
+
+flowchart TD
+
+A[🚨 User Feels Unsafe] --> B[🆘 Tap SOS Button]
+
+B --> C[⚡ Emergency Mode Activated]
+
+C --> D[📍 Live Location Shared]
+C --> E[🔔 Alerts Sent Instantly]
+C --> F[🎥 Evidence Recording Starts]
+
+E --> G[👨‍👩‍👧 Trusted Contacts Notified]
+E --> H[🤝 Nearby Helpers Alerted]
+E --> I[👮 Police Integration<br>(Future Scope)]
+
+D --> J[📡 Continuous GPS Tracking]
+
+H --> K[🚑 Community Support Arrives Fast]
+I --> L[🚓 Authorities Respond]
+
+J --> M[✅ User Confirms Safety]
+
+M --> N[🌸 Incident Resolved & Logged Securely]
+
+
+Frontend: React Native + Kotlin
+Backend: (Node.js + Express.js) + Kotlin
+Database: PostgreSQL / MongoDB
+Real-Time Alerts: Firebase + Socket.io
+AI/ML Support: TensorFlow / PyTorch
+NLP Layer: SpaCy / Hugging Face
+
+
+git clone https://github.com/yourusername/resq-app.git
+cd resq-app
+npm install
+npm start
+
