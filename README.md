@@ -2,103 +2,102 @@
 
 # 🚨 ResQ – Women Safety & Emergency Response App  
 
-### 🌸 *Real-Time Help. Instant Alerts. Safer Communities.*
+### 🌸 Real-Time Help • Instant Alerts • Safer Communities  
 
-<img src="https://readme-typing-svg.herokuapp.com?color=FF4B8B&size=24&center=true&vCenter=true&width=600&lines=Your+Safety+Matters.;Instant+SOS+Alerts+%F0%9F%9A%A8;Nearby+Help+in+Seconds+%F0%9F%93%8D;Empowering+Women+Through+Technology+%F0%9F%92%AA" />
+<img src="https://readme-typing-svg.herokuapp.com?color=FF4B8B&size=22&center=true&vCenter=true&width=650&lines=Your+Safety+Matters.;One-Tap+SOS+Emergency+Support.;Nearby+Help+in+Seconds+%F0%9F%93%8D;Empowering+Women+Through+Technology+%F0%9F%92%AA" />
 
----
+<br/>
 
-![Made with Love](https://img.shields.io/badge/Made%20With-%F0%9F%92%96%20Love-ff69b4)
 ![Platform](https://img.shields.io/badge/Platform-Mobile%20App-blue)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
 ![Tech](https://img.shields.io/badge/Tech%20Stack-React%20Native%20%7C%20Kotlin-green)
+![License](https://img.shields.io/badge/License-MIT-pink)
 
 </div>
 
 ---
 
-## 🌟 About ResQ
+## 🌟 Overview  
 
-**ResQ** is a **mobile-first women safety app** designed to provide **instant emergency support** during unsafe situations.  
-It connects victims to:
+**ResQ** is a **mobile-first women safety app** built to provide **instant emergency response** during unsafe situations.  
 
-✅ Nearby trusted people  
-✅ Emergency contacts  
-✅ Police stations  
-✅ Real-time live location tracking  
+It connects victims with:
 
-📍 *Because help from people nearby can arrive faster than official services.*
+- ✅ Trusted emergency contacts  
+- ✅ Nearby verified helpers  
+- ✅ Live GPS tracking  
+- ✅ Evidence capture support  
+- ✅ Future police integration  
 
----
-
-## 🎯 Key Problem ResQ Solves
-
-🚫 Late emergency response  
-🚫 Lack of bystander intervention  
-🚫 Unsafe travel situations  
-🚫 No real-time monitoring tools  
-🚫 Delays in police support  
+> **Because the fastest help is often nearby.**
 
 ---
 
-## 🚀 Features
+<hr/>
 
-### 🆘 Emergency SOS System
-- One-tap panic button  
-- Sends instant alerts to trusted contacts  
+## 🎯 Problem ResQ Solves  
 
-### 📍 Live Location Sharing
-- Real-time GPS tracking  
-- Location updates until safe  
+Women face critical challenges during emergencies:
 
-### 🔔 Nearby Community Support
-- Notifies people nearby for quicker help  
+- 🚫 Late response from authorities  
+- 🚫 Lack of bystander intervention  
+- 🚫 No real-time monitoring  
+- 🚫 Fear of reporting incidents  
 
-### 🎥 Evidence Collection
-- Auto video/audio recording during SOS  
-- Stored securely for later reporting  
-
-### 👮 Police & Authority Integration (Future Scope)
-- Direct station alert support  
-- Faster official response  
-
-### 🕵️ Anonymous Reporting
-- Safe reporting without fear  
-- Special support for child safety cases  
+ResQ bridges this gap using **technology + community-driven safety**.
 
 ---
 
-## 🖼 App Screenshots
+<hr/>
+
+## 🚀 Key Features  
 
 <div align="center">
 
-| Home Screen | SOS Alert | Live Tracking |
-|------------|----------|--------------|
-| <img src="assets/screens/home.png" width="200"/> | <img src="assets/screens/sos.png" width="200"/> | <img src="assets/screens/location.png" width="200"/> |
+| Feature | Description |
+|--------|-------------|
+| 🆘 SOS Panic Button | One tap activates emergency mode instantly |
+| 📍 Live Location Sharing | Continuous GPS tracking until safe |
+| 🔔 Instant Alerts | Notifies contacts + nearby helpers |
+| 🎥 Evidence Recording | Auto audio/video capture for proof |
+| 🕵️ Anonymous Reporting | Safe reporting without fear |
+| 👮 Police Integration | Planned future collaboration |
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
+<hr/>
 
-| Layer | Technologies |
-|------|-------------|
-| **Frontend** | React Native + Kotlin |
-| **Backend** | (Node.js + Express.js) + Kotlin |
-| **Database** | PostgreSQL / MongoDB |
-| **Real-Time Alerts** | Firebase + Socket.io |
-| **AI/ML Processing** | Python / TensorFlow / PyTorch |
-| **NLP Support** | SpaCy / NLTK / Hugging Face |
+## 🖼 App Screenshots  
+
+<div align="center">
+
+<img src="assets/screens/home.png" width="220"/>
+<img src="assets/screens/sos.png" width="220"/>
+<img src="assets/screens/location.png" width="220"/>
+
+</div>
 
 ---
 
-## 📌 App Workflow
+<hr/>
 
-```mermaid
-graph TD;
-A[User in Danger] --> B[Press SOS Button]
-B --> C[Alert Emergency Contacts]
-B --> D[Notify Nearby People]
-B --> E[Share Live Location]
-E --> F[Police & Help Reach Faster]
+# 🧭 ResQ Emergency Response Flow  
+
+This is the structured workflow ResQ follows during an incident:
+
+---
+
+## ✅ Step-by-Step Emergency Pipeline  
+
+```diff
++ 1. User senses danger or feels unsafe
++ 2. User taps the SOS panic button
++ 3. Emergency mode is instantly activated
++ 4. Alerts are sent to trusted contacts
++ 5. Nearby helpers are notified for fastest response
++ 6. Live GPS location sharing begins immediately
++ 7. Evidence recording starts automatically
++ 8. Continuous tracking remains active until safe
++ 9. Incident is resolved, logged, and can be reported
