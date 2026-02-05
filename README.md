@@ -73,12 +73,26 @@ It helps victims take action instantly by notifying:
 
 ---
 
-## 📌 App Workflow
+## 🔥 Visual Workflow Diagram  
 
 ```mermaid
-graph TD;
-A[User in Danger] --> B[Press SOS Button]
-B --> C[Alert Emergency Contacts]
-B --> D[Notify Nearby People]
-B --> E[Share Live Location]
-E --> F[Police & Help Reach Faster]
+flowchart TD
+    A[🚨 User Feels Unsafe] --> B[🆘 Tap SOS Button]
+    B --> C[⚡ Emergency Mode Activated]
+
+    C --> D[📍 Live Location Shared]
+    C --> E[🔔 Alerts Sent Instantly]
+    C --> F[🎥 Evidence Recording Starts]
+
+    E --> G[👨‍👩‍👧 Trusted Contacts Notified]
+    E --> H[🤝 Nearby Helpers Alerted]
+    E --> I[👮 Police Integration (Future Scope)]
+
+    D --> J[📡 Continuous GPS Tracking]
+
+    H --> K[🚑 Community Support Arrives Fast]
+    I --> L[🚓 Authorities Respond]
+
+    J --> M[✅ User Confirms Safety]
+    M --> N[🌸 Incident Resolved & Logged Securely]
+
